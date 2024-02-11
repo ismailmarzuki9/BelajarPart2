@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To do List</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <style>
+        body{
+            background-color: black;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    <div class="container-fluid text-center">
+    <h1>To do List</h1>
+    <form class="row g-3" id="form">
+        <div class="col-md-6">
+            <label for="input" class="form-label float-start">masukan aktivitas mu !!</label>
+            <input type="text" class="form-control" id="task" placeholder="Add new task">
+            <button type="submit" class="btn btn-primary" onclick="BacaInput()">Submit</button>
+          </div>
+    </form>
+    
+        <ul id="taskList">
+        </ul>
+    <script src="main.js"></script>
+</body>
+</html>

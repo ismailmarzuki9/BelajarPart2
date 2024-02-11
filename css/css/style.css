@@ -1,0 +1,11 @@
+@media only screen and (max-width: 600px) {    /*jika ukuran dibawah atau maxsimal 600 */
+    body {
+      background-color: lightblue;
+    }
+  }
+
+/* @media only screen and (min-width: 600px) {    /*jika ukuran diatas atau minimal lebar 600 */
+    /* body {
+      background-color: rgb(116, 170, 250);
+    } */
+ 
